@@ -84,9 +84,33 @@
 	-->
 <form action="">
 	<h3>좋아하는 과일을 선택하세요. (다중 선택 가능) </h3>
-	<input type="checkbox" name="fruit" value="사과"> 사과
-	<input type="checkbox" name="fruit" value="배"> 배
-	<input type="checkbox" name="fruit" value="포도"> 포도
+	<lable>
+	 <input type="checkbox" name="fruit" value="사과" checked> 사과
+	</lable>
+	<lable>
+	 <input type="checkbox" name="fruit" value="배"> 배
+	</lable>
+	<lable>
+	 <input type="checkbox" name="fruit" value="포도"> 포도
+	</lable>
+	<button type="submit">전송</button>
+</form>
+<form action="">
+	<h3>좋아하는 과일을 선택하세요. (다중 선택 가능) </h3>
+	<input type="checkbox" name="fruit" value="사과" checked id="apple"> 
+	<label for="">사과</label>
+	<input type="checkbox" name="fruit" value="배" id="pear">
+	<label for="">배</label>
+	<input type="checkbox" name="fruit" value="포도" id="grape">
+	<label for="">포도</label>
+	<button type="submit">전송</button>
+</form>
+<form action="">
+	<h3>당신의 성별은?</h3>
+	<input type="radio" name="gender" value="여성" id="female">
+	<label for="female">여성</label>
+	<input type="radio" name="gender" value="남성" id="male">
+	<label for="male">남성</label>
 	<button type="submit">전송</button>
 </form>
 </body>
